@@ -3,11 +3,12 @@
 /**
  * _strcat - concatenates two strings
  * @dest: input value
- * @str: input value
+ * @src: input value
  * Return: void
  */
 
 char *_strcat(char *dest, char *src)
+
 {
 	int i;
 	int j;
