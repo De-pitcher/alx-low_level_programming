@@ -24,8 +24,8 @@ typedef struct listint_s
  * @addr: pointer address value
  * @next: points to the next node
  *
- * Description: This is a singly linked node
- * structure
+ * Description: singly linked node structure
+ * for Holberton project
  */
 
 typedef struct list_addr_s
@@ -34,6 +34,6 @@ typedef struct list_addr_s
     struct list_addr_s *next;
 } list_addr;
 
-
 size_t print_listint(const listint_t *h);
+
 #endif
