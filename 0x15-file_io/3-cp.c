@@ -6,7 +6,7 @@ char *create_buf(char *file);
 void close_file(int fd);
 
 /**
- * create_buf - Creates and allocate bytes for a buffer.
+ * create_buff - Creates and allocate bytes for a buffer.
  * @file: pointer to the chars to be parsed as buffer.
  *
  * Return: A pointer to a newly-allocated buffer.
@@ -28,7 +28,7 @@ char *create_buff(char *file)
 }
 
 /**
- * clos_file - Closes the file descriptor parsed as argument.
+ * close_file - Closes the file descriptor parsed as argument.
  * @fd: File descriptor to be closed.
  *
  * Return: Nothing.
